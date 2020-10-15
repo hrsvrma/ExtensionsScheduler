@@ -1,3 +1,13 @@
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-180656135-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = 'https://ssl.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
 const V1_STORAGE_KEY_ENABLE_TIME = 'v1.enableAt';
 const V1_STORAGE_KEY_DISABLE_TIME = 'v1.disableAt';
 const V1_STORAGE_DAYS = 'v1.days';
