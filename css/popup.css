@@ -72,7 +72,7 @@ img.middle {
   font-size: medium;
 }
 .extensions-container {
-  height: 380px;
+  max-height: 380px;
   overflow: scroll;
 }
 .extension-row {
